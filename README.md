@@ -1,36 +1,41 @@
-# Final Project!
-
-This is it! The culmination of your procedural graphics experience this semester. For your final project, we'd like to give you the time and space to explore a topic of your choosing. You may choose any topic you please, so long as you vet the topic and scope with an instructor or TA. We've provided some suggestions below. The scope of your project should be roughly 1.5 homework assignments). To help structure your time, we're breaking down the project into 4 milestones:
-
-## Project planning: Design Doc (due 11/5)
-Before submitting your first milestone, _you must get your project idea and scope approved by Rachel, Adam or a TA._
-
-### Design Doc
-Start off by forking this repository. In your README, write a design doc to outline your project goals and implementation plan. It must include the following sections:
-
+# Final Project
 #### Introduction
-- What motivates your project?
+What motivates your project?
+- I've been wanting to learn more about Blender and proceduralism in Blender all year but haven't had a chance to. I've seen some tutorials from artists I follow about creating stylized buildings of this style and I want to utilize them in this project because I enjoy the stylized look and think putting a scene together would teach me about composition.
 
 #### Goal
-- What do you intend to achieve with this project?
+What do you intend to achieve with this project?
+- I want to learn while also creating a project that showcases procedural placement and generation in order to create a stylized scene.
 
 #### Inspiration/reference:
 - You must have some form of reference material for your final project. Your reference may be a research paper, a blog post, some artwork, a video, another class at Penn, etc.  
 - Include in your design doc links to and images of your reference material.
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/a6fa8e85-1124-4c1c-a5e7-d5582a70228c" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/01f4f131-9b12-44c8-8a99-0deaa7189f9a" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/c8d37a1f-f1da-43a5-adc2-b8026a104588" />
 
 #### Specification:
-- Outline the main features of your project.
+Outline the main features of your project:
+- Modeled village buildings, probably one hero building
+- Procedural setup for randomized placement of buildings
+- Props such as snow, lights, bridge possible
+- Basic materials applied
 
 #### Techniques:
-- What are the main technical/algorithmic tools you’ll be using? Give an overview, citing specific papers/articles.
+What are the main technical/algorithmic tools you’ll be using? Give an overview, citing specific papers/articles.
+- I will be using the open-source 3D software Blender for all aspects, I will not need plug ins as far as I know. I plan to use some modeling tutorials from Grant Abbitt and some procedural village/city videos, possibly one of these: https://www.youtube.com/watch?v=MRYJeBUhSx4 or https://www.youtube.com/watch?v=pYHocEhwPr0
 
 #### Design:
 - How will your program fit together? Make a simple free-body diagram illustrating the pieces.
 
 #### Timeline:
-- Create a week-by-week set of milestones for each person in your group. Make sure you explicitly outline what each group member's duties will be.
+Note: Timeline is adjusted from normal project guidelines because I switched projects
+| Timeline | Goal |
+| ----------- | ----------- |
+| Nov 22 - Nov 24 | Gather reference materials, including inspiration images and relevant Blender tutorials |
+| Nov 24 - Nov 26 | Procedural layout is set up, models of varying houses are made |
+| Nov 26 - Dec 1 | A complete procedural village scene that has been rendered with basic materials |
 
-Submit your Design doc as usual via pull request against this repository.
 ## Milestone 1: Implementation part 1 (due 11/12)
 Begin implementing your engine! Don't worry too much about polish or parameter tuning -- this week is about getting together the bulk of your generator implemented. By the end of the week, even if your visuals are crude, the majority of your generator's functionality should be done.
 
