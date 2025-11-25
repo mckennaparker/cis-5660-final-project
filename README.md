@@ -54,6 +54,7 @@ Above: Geometry Node Setup
 Above: Weight Painted Plane with Buildings
 <br />
 <img width="333" height="501" alt="image" src="https://github.com/user-attachments/assets/38e9cc37-86e6-4f08-9419-f522967cec95" />
+<br />
 Above: Parameters used to create the current model/scene
 
 
