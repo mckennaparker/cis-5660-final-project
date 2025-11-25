@@ -59,16 +59,17 @@ Above: Parameters used to create the current model/scene
 
 
 ## Milestone 2: Implementation part 2 (due 11/24)
-We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
+Currently working on creating procedural buildings using this tutorial: https://www.youtube.com/watch?v=-rexNuTap44&list=PLcRX9rXhXHWiaRgVPCdp8811YLsGdDeK7
+<br />
+I am just updating this at 11:27pm on November 24th, so I don't have time to create the entire asset pack that I am going to use when generating my own procedural building, but here is an image of a wall that I created with the type of style I want to emulate for the buildings in my piece:
+<br />
+<img width="800" height="695" alt="image" src="https://github.com/user-attachments/assets/34791056-1ffb-4081-8c14-29a595d834e3" />
+<br />
+Using the tutorial, this is the building output I was able to generate:
+<br />
+<br />
+My next step is to create the rest of the modular asset pack in the cozy village style that I want, and then swap the pink and white assets out for the cozy village ones in order to create the procedural models that will be placed on the plane in the final scene.
 
-Put all your code in your forked repository.
-
-Submission: Add a new section to your README titled: Milestone #3, which should include
-- written description of progress on your project goals. If you haven't hit all your goals, what did you have to cut and why? 
-- Detailed output from your generator, images, video, etc.
-We'll check your repository for updates. No need to create a new pull request.
-
-Come to class on the due date with a WORKING COPY of your project. We'll be spending time in class critiquing and reviewing your work so far.
 
 ## Final submission (due 12/1)
 Time to polish! Spen this last week of your project using your generator to produce beautiful output. Add textures, tune parameters, play with colors, play with camera animation. Take the feedback from class critques and use it to take your project to the next level.
