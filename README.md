@@ -8,11 +8,17 @@ What do you intend to achieve with this project?
 - I want to learn while also creating a project that showcases procedural placement and generation in order to create a stylized scene.
 
 #### Inspiration/reference:
-- You must have some form of reference material for your final project. Your reference may be a research paper, a blog post, some artwork, a video, another class at Penn, etc.  
-- Include in your design doc links to and images of your reference material.
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/a6fa8e85-1124-4c1c-a5e7-d5582a70228c" />
+<br />
+Above: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fab.com%2Flistings%2F59e33f20-d49d-4269-8e07-e2a8cf396426&psig=AOvVaw0vrpQ5UKEsMZ50E5rEYAnT&ust=1764125897224000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCKCg2p2njJEDFQAAAAAdAAAAABAL
+<br />
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/01f4f131-9b12-44c8-8a99-0deaa7189f9a" />
+<br />
+Above: https://justcreate3d.itch.io/stylized-medieval-village
+<br />
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/c8d37a1f-f1da-43a5-adc2-b8026a104588" />
+<br />
+Above: https://www.etsy.com/listing/4338398063/christmas-town-snowy-village-winter
 
 #### Specification:
 Outline the main features of your project:
@@ -36,15 +42,21 @@ Note: Timeline is adjusted from normal project guidelines because I switched pro
 | Nov 24 - Nov 26 | Procedural layout is set up, models of varying houses are made |
 | Nov 26 - Dec 1 | A complete procedural village scene that has been rendered with basic materials |
 
-## Milestone 1: Implementation part 1 (due 11/12)
-Begin implementing your engine! Don't worry too much about polish or parameter tuning -- this week is about getting together the bulk of your generator implemented. By the end of the week, even if your visuals are crude, the majority of your generator's functionality should be done.
+## Milestone 1
+I found multiple helpful tutorials on YouTube for what I want to implement, and I originally used CGEssential's YouTube tutorial on how to place objects randomly using a particle system, but this was an old tutorial and I ended up finding a better tutorial from the same creator on how to procedurally place buildings and alter parameters like the density, scale, rotation, etc. using Blender's weight paint mode. This setup is done using Blender's geometry nodes with the main two nodes being Distribute Points on Faces and Instance on Points which places an item at each instance. I had some issues with the weight painting at first but then realized that the issue was due to the plane not being subdivided and only having four vertices. I created a very basic instance of a house to place to show a proof of concept.
 
-Put all your code in your forked repository.
+<img width="800" height="693" alt="image" src="https://github.com/user-attachments/assets/14d28a45-29b3-4442-a619-a19bf10877a2" />
+<br />
+Above: Geometry Node Setup
+<br />
+<img width="800" height="829" alt="image" src="https://github.com/user-attachments/assets/904cbe9e-29d7-45a6-9d8f-f55e98e7724f" />
+<br />
+Above: Weight Painted Plane with Buildings
+<br />
+<img width="333" height="501" alt="image" src="https://github.com/user-attachments/assets/38e9cc37-86e6-4f08-9419-f522967cec95" />
+Above: Parameters used to create the current model/scene
 
-Submission: Add a new section to your README titled: Milestone #1, which should include
-- written description of progress on your project goals. If you haven't hit all your goals, what's giving you trouble?
-- Examples of your generators output so far
-We'll check your repository for updates. No need to create a new pull request.
+
 ## Milestone 2: Implementation part 2 (due 11/24)
 We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
 
