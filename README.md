@@ -68,6 +68,7 @@ I am just updating this at 11:27pm on November 24th, so I don't have time to cre
 Using the tutorial assets, this is the building output I was able to generate:
 <br />
 <img width="800" height="656" alt="image" src="https://github.com/user-attachments/assets/e6a50a17-2f66-41c0-b697-c17002227158" />
+<img width="800" alt="image" src="proceduralBuilding.gif" />
 <br />
 My next step is to create the rest of the modular asset pack in the cozy village style that I want, and then swap the pink and white assets out for the cozy village ones in order to create the procedural models that will be placed on the plane in the final scene.
 
